@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-9KQ19KN" failures="1" tests="1" name="com.redBus.tests.RedBusAutomation" time="80.603" errors="0" timestamp="21 May 2024 11:12:19 GMT">
+  <testcase classname="com.redBus.tests.RedBusAutomation" name="successBusTicketBookingTest" time="59.754">
+    <failure type="java.lang.IllegalArgumentException" message="SikuliX: find, wait, exists: invalid parameter: C:\PlaywrightProject\src\test\resources\TestData\available_seat.PNG">
+      <![CDATA[java.lang.IllegalArgumentException: SikuliX: find, wait, exists: invalid parameter: C:\PlaywrightProject\src\test\resources\TestData\available_seat.PNG
+	at org.sikuli.script.Element.getImageFromTarget(Element.java:385)
+	at org.sikuli.script.Region$RepeatableFind.<init>(Region.java:3040)
+	at org.sikuli.script.Region.doExistsInit(Region.java:2320)
+	at org.sikuli.script.Region.exists(Region.java:2308)
+	at org.sikuli.script.Region.exists(Region.java:2372)
+	at com.redBus.tests.RedBusAutomation.successBusTicketBookingTest(RedBusAutomation.java:123)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+    </failure>
+  </testcase>
+</testsuite>
